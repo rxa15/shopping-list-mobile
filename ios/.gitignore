@@ -12,6 +12,10 @@
 Icon?
 **/Pods/
 **/.symlinks/
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
+*.keystore
+*.jks
 profile
 xcuserdata
 **/.generated/
